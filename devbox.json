@@ -13,6 +13,12 @@
     "bash@latest",
     "boost@latest",
     "python311Packages.boost@latest",
+    "clang@latest",
+    "gcc@latest",
+    "readline@latest",
+    "libcxx@latest",
+    "stdenv@latest",
+    "zlib@latest",
   ],
   "shell": {
     "init_hook": [
