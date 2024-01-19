@@ -1,0 +1,28 @@
+{
+  "packages": [
+    "bison@latest",
+    "flex@latest",
+    "gawk@latest",
+    "libffi@latest",
+    "git@latest",
+    "graphviz@latest",
+    "pkg-config@latest",
+    "python3@latest",
+    "tcl@latest",
+    "xdot@latest",
+    "bash@latest",
+    "boost@latest",
+    "python311Packages.boost@latest",
+  ],
+  "shell": {
+    "init_hook": [
+      "echo 'Welcome to the yosys devbox!' > /dev/null",
+      "source $VENV_DIR/bin/activate",
+    ],
+    "scripts": {
+      "test": [
+        "echo \"Error: no test specified\" && exit 1",
+      ],
+    },
+  },
+}
