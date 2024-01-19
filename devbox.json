@@ -19,6 +19,7 @@
     "libcxx@latest",
     "stdenv@latest",
     "zlib@latest",
+    "yosys@latest",
   ],
   "shell": {
     "init_hook": [

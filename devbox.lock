@@ -352,6 +352,26 @@
         }
       }
     },
+    "yosys@latest": {
+      "last_modified": "2024-01-14T03:55:27Z",
+      "resolved": "github:NixOS/nixpkgs/dd5621df6dcb90122b50da5ec31c411a0de3e538#yosys",
+      "source": "devbox-search",
+      "version": "0.36",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/n7w8zbd1id66a0jjjnj8k7jamnsgyll2-yosys-0.36"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/7cq8kxyhnjcz0yd2z35xz017jqw1bj73-yosys-0.36"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/rdr4xw9n1qrijfpjf1svcqi5za9xcq4p-yosys-0.36"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/7lkfncrxyr4kkykgzc75ad4mpajf9n3a-yosys-0.36"
+        }
+      }
+    },
     "zlib@latest": {
       "last_modified": "2024-01-14T03:55:27Z",
       "resolved": "github:NixOS/nixpkgs/dd5621df6dcb90122b50da5ec31c411a0de3e538#zlib",
